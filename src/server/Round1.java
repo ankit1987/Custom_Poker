@@ -6,7 +6,11 @@ import util.GameStates;
 
 /**
  * 
- * @author ivy4127
+ * This class represents the round1 state of the game
+ * all the common functionalities has been defined in the super class
+ * Round1 doesn't have options like check and bet. 
+ *  1.Bet is not there because force bet are used
+ *  2. Check option wont be there because SB and BB has to be placed 
  *
  */
 public class Round1 extends GameState {

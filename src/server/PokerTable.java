@@ -187,7 +187,7 @@ public List<Player> prepareActivePlayerListForCurrentGame(Player smallBlind){
 
 
 /**
- * this function calculates the relative position of all playes relative to dealer
+ * this function calculates the relative position of all playes relative to dealer in current game
  * @param dealer
  */
 public void setRelativePosition(Player dealer){

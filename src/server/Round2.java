@@ -2,6 +2,11 @@ package server;
 
 import util.GameStates;
 
+/**
+ * this class represents the Round2 state of Game
+ * @author ivy4127
+ *
+ */
 public class Round2 extends GameState{
 
 	

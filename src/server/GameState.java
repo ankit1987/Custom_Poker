@@ -10,6 +10,20 @@ import util.BetOption;
 import util.Configuration;
 import util.GameStates;
 
+/**
+ * this class represnts the game state of game which can be any of following
+ * 1. Round1
+ * 2. Round2
+ * 3. Round3
+ * 4  Round4
+ * 5. Finish
+ * 
+ * This class contains the logic of processing of option which are taken by the player.
+ * This class is responsible of creating the sidePot in case of all-in({@link http://www.learn-texas-holdem.com/questions/when-a-side-pot-is-created.htm})
+ * This class is responsible for maintaining the pot
+ * @author Ankit Tyagi
+ *
+ */
 public abstract class GameState {
 
 	private boolean isRoundComplete = false;
